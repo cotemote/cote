@@ -27,7 +27,7 @@ def get_result_in_base(expr, base):
     b_val = int(b, base)
     if op == '+':
         return convert_to_base(a_val + b_val, base)
-    else:  # op == '-'
+    else: 
         return convert_to_base(a_val - b_val, base)
 
 def solution(expressions):
