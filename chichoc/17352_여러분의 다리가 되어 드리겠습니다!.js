@@ -36,3 +36,4 @@ for (let i = 1; i <= n; i++) {
     return console.log(i, j);
   }
 }
+// test
