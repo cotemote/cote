@@ -2,7 +2,7 @@ N = int(input())
 
 dp = [[[0] * 3 for _ in range(2)] for _ in range(N + 1)] 
 
-dp[0][0][0] = 1 # 첫 날
+dp[0][0][0] = 1 
 
 for day in range(N):
     for late in range(2):
